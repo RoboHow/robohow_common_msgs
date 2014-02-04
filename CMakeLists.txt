@@ -22,11 +22,11 @@ find_package(catkin REQUIRED COMPONENTS message_generation)
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  GaussianDistribution.msg
+  GaussianMixtureModel.msg
   GraspStability.msg
-  GMM.msg
-  LearnedForceMotionModel.msg
-  LearnedPositionMotionModel.msg
-  LearnedMotionModel.msg
+  MotionModel.msg
+  MotionPhase.msg
 )
 
 ## Generate services in the 'srv' folder
