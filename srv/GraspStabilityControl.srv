@@ -11,6 +11,7 @@ string context_id
 # Information specific to the current grasp
 string task_name
 string object_id
+string estimate_type
 ---
 # Result flag
 int32 FAILURE=0
